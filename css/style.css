@@ -1,0 +1,320 @@
+
+
+body { 
+    background-color: #ffffff;
+    margin: 0px; 
+    width: 100%;
+}
+
+
+
+
+.banner-image {
+    background-image: url("../src/img/mainheader22.jpg");
+    background-size: cover; 
+    background-position: bottom;
+  } 
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("/font/Roboto-Bold.ttf") format("truetype");     
+}  
+@font-face {
+    font-family: "Robotolight";
+    src: url("/font/Roboto-Light.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Georama";
+    src: url("/font/Georama-Light.ttf") format("truetype");
+}
+
+
+
+
+.navbar { 
+    font-family: "Georama"; 
+    font-size: 27px;
+    
+}  
+
+.navbar-nav .left { 
+    float: left !important;
+
+}
+
+/* HOOOVER */ 
+.navbar-nav .nav-item .nav-link {
+    color: rgb(255, 255, 255) ; 
+    margin-left: 27px; 
+
+    
+
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #4CC950 !important;
+}
+
+
+
+.btn-login { 
+border: 1px solid black;
+  background-color: transparent;
+  color: rgb(255, 255, 255); 
+  border-color:white ;  
+  padding: 8px 30px;
+  font-size: 15px;
+  cursor: pointer; 
+  border-radius: 20px; 
+  margin-left: 250px;
+
+}  
+
+
+.btn-login:hover {  
+    /* background-image: linear-gradient(to bottom right, rgb(37, 202, 202) , rgb(27, 163, 56));  */
+
+    border-color: transparent; 
+    background-color: rgb(37, 202, 202);
+    transition: ease-in 0.25s;
+}
+
+.logo img { 
+    height: 50px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(-20deg);
+}
+
+.button-container { 
+    
+}
+
+.button-registrasi  {   
+    font-family: "Robotolight" !important ; 
+    font-size: 28px !important;
+    background-color: #4CC950 !important; /* Green */
+    border-radius: 40px !important; 
+    padding: 4px 25px !important;  
+    color: #E8E8E8; 
+    border-color: none !important; 
+ 
+
+    
+}  
+
+.button-registrasi:hover { 
+padding: 50px 50px;
+
+}
+
+.thropy img{ 
+        position: absolute;
+        width: auto; 
+        height: 90px; 
+        top: 25%;
+        left: 34%;
+      
+}
+
+.slogan {  
+    top: 65% !important;
+    position: absolute;  
+    top: 50vh;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    z-index: 1 ;
+} 
+
+.covertext  {  
+    position: relative;    
+    border: 0px solid #b65b5b;
+    font-family: "Roboto"; 
+    text-align: left;
+    color: #E8E8E8; 
+    height: 65vh; 
+    width: 80vw;
+}  
+
+
+
+.covertext h1 {       
+    float: right;
+    height: auto;
+    width: 500px;
+    text-align: left; 
+    border: 0px solid #000000;
+    color: #E8E8E8; 
+    font-family: "Roboto";
+    font-size: 72px;  
+    line-height: 95%;  
+
+} 
+
+.covertext p { 
+    font-size: 30px;
+    color: #91A0B9; 
+    text-align: left; 
+    line-height: 100%; 
+}
+     
+/* =================== EVENTS============================ */ 
+.events { 
+    min-height: 100vh; 
+    background-color: rgb(255, 255, 255); 
+    border: solid 5px rgb(26, 6, 136); 
+
+
+} 
+
+.events .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */ 
+    border-radius: 20px;
+    border: 0px transparent !important; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+} 
+
+
+.events img { 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+} 
+
+.events img:hover { 
+    transform: scale(1);
+    transition: ease-in 0.5s; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.button-register {  
+    align-content: center !important;
+    float: right;
+    font-family: "Robotolight" !important ; 
+    font-size: 15px !important;
+    background-color: #4CC950 !important; /* Green */
+    border-radius: 40px !important; 
+    padding: 3px 15px !important;  
+    color: #E8E8E8; 
+    border-color: none !important; 
+}
+
+/* ======================================================= */ 
+
+
+
+/* =================== card-partner ===================== */ 
+
+.text-partner { 
+    font-weight: bold; 
+    font-family: "Roboto"; 
+    border: solid 5px red; 
+    width: 50vh;
+}
+.text-partner h1 { 
+    font-size: 50px;    
+
+    
+ }
+
+ .card-partner { 
+     border: solid 3px rgb(255, 255, 255);
+    border-radius: 45px;    
+    padding: 20px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+.card-partner  img{ 
+    width: 15rem !important;
+    margin: 15px 0px; 
+}
+
+.container-partner { 
+    border: solid 3px black;
+    background-color: blue; 
+    width: 55vw;
+    border-radius: 50px; 
+    
+    
+}
+
+.partnership {  
+    padding: 20px;
+    width: auto; 
+    height: auto !important;
+    background-color: transparent; 
+    border: 2px solid rebeccapurple;
+}
+
+/* ====================================================== */
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 500px) {  
+    .covertext h1 {  
+        justify-content: center;
+        width: 350px;  
+        height: auto;    
+        text-align: left; 
+        border: 0px solid #000000;
+        color: #E8E8E8; 
+        font-family: "Roboto";
+        font-size: 52px;  
+        line-height: 1; 
+        
+    }  
+
+    .btn-login { 
+        /* margin-left: 0px; 
+        align-items: center !important;  */
+        
+    } 
+
+    .thropy img{ 
+        position: absolute;
+        width: auto; 
+        height: 50px; 
+        top: 15%;
+        left: 34%;
+        z-index: -1;
+}
+ 
+    .logo img{  
+        margin-left: 20px; 
+        height: 45px;
+        justify-content: flex-start;
+}
+
+.covertext  {  
+    
+    height: 75vh; 
+    
+}  
+
+
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  
+    /* .btn-login { 
+        margin-left: 0px; 
+        align-items: center; 
+    }  */
+
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
