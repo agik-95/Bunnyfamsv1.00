@@ -5,8 +5,8 @@
 	<groupId>com.godev.machine</groupId>
 	<artifactId>ArtifactBunnyFams</artifactId>
 	<packaging>war</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>mvn-hello-world Maven Webapp</name>
+	<version>1</version>
+	<name>bunnyfams</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
