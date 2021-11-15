@@ -264,8 +264,8 @@ padding: 50px 50px;
 }
 
 .partnership img { 
-  width: 50px !important; 
-  max-height: 200px;
+  /* width: 50px !important;  */
+  /* max-height: 200px; */
 }
 
 .partnership { 
