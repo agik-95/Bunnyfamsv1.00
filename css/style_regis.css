@@ -67,7 +67,7 @@ label {
 
 .desc {  
   font-family: "Roboto"; 
-  color: black;
+  color: #2C2C2C;
   font-size: 30px;
 }
 
@@ -75,7 +75,7 @@ label {
   font-family: "Roboto-Medium";
   color: #616161;
   font-size: 20px; 
-  font-weight:normal;
+  font-weight:normal ;
 }
 
 .button-registrasi {  
@@ -88,6 +88,11 @@ label {
   padding: 3px 15px !important;  
   color: #E8E8E8; 
   border-color: none !important; 
+} 
+
+.button-registrasi:hover { 
+  color:#F4F4F4 !important;
+
 }
 
 /* ================= modal images ================= */ 
@@ -173,8 +178,9 @@ label {
 
 .loc { 
   color: #4ec5c5 !important;
-
 }
+
+
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 500px){
