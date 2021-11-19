@@ -39,7 +39,7 @@ body {
 
 .navbar { 
     font-family: "Georama"; 
-    font-size: 27px;
+    font-size: 21px;
     
 }  
 
@@ -90,7 +90,7 @@ body {
     /* background-image: linear-gradient(to bottom right, rgb(37, 202, 202) , rgb(27, 163, 56));  */
 
     border-color: transparent; 
-    background-color: #0C1A31; 
+    background-color: #034B59; 
     color: #F9F9F9;
 }
 
