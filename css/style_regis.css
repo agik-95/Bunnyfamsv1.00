@@ -68,13 +68,13 @@ label {
 .desc {  
   font-family: "Roboto"; 
   color: #2C2C2C;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .fill-desc { 
   font-family: "Roboto-Medium";
   color: #616161;
-  font-size: 20px; 
+  font-size: 18px; 
   font-weight:normal ;
 }
 
@@ -82,7 +82,7 @@ label {
   align-content: center !important;
   float: right;
   font-family: "Robotolight" !important ; 
-  font-size: 15px !important;
+  font-size: 13px !important;
   background-color: #4CC950 !important; /* Green */
   border-radius: 10px !important; 
   padding: 3px 15px !important;  
